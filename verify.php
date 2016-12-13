@@ -52,7 +52,7 @@ if (!isValidEmail($email)) $errors[] = 'Veuillez saisir une adresse email valide
 if (!isFilled($recaptcha)) $errors[] = 'Veuillez cocher la case pour prouver que vous êtes un humain.';
 
 if (!isValidRecaptchaToken($recaptcha, $ip, $recaptcha_secret)) {
-  $errors[] = 'La vérification que vous êtes un humain échoué. Veuillez réessayer.';
+  $errors[] = 'La vérification que vous êtes un humain a échoué. Veuillez réessayer.';
 }
 
 if (count($errors)) {

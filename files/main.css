@@ -35,3 +35,12 @@ img.logo-left {
 .gallery-pic img {
   width: 100%;
 }
+
+.bigger-address {
+  padding: 15px 15px 0 15px;
+  font-size: larger;
+}
+
+.bigger-address h4 {
+  font-size: larger;
+}
