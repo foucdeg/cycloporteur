@@ -54,3 +54,7 @@ p.main-text {
 p.main-text + p.lead {
   margin-top: 22px;
 }
+
+p.margin-top {
+  margin-top: 50px;
+}
