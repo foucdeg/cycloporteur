@@ -28,6 +28,13 @@ img.logo-left {
   width: 100%;
 }
 
+img.made-in-france {
+  height: 150px;
+  display: block;
+  margin: auto;
+  max-width: 100%
+}
+
 .first-row {
   margin-top: 10px;
 }
