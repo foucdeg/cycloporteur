@@ -65,3 +65,7 @@ p.main-text + p.lead {
 p.margin-top {
   margin-top: 50px;
 }
+
+.picture-row {
+  margin: 10px 0px;
+}
