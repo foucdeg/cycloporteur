@@ -69,3 +69,22 @@ p.margin-top {
 .picture-row {
   margin: 10px 0px;
 }
+
+.fb-like {
+  position: fixed !important;
+  bottom: 4px;
+  right: 16px;
+}
+
+.paris-notice {
+  background-color:#ffc3d4;
+  border: 1px solid  #DC2C5F;
+  border-radius: 4px;
+  padding: 0px 10px 10px 10px;
+  margin-top: 24px;
+}
+
+.paris-notice ul {
+  margin-top: 16px;
+  list-style-type: none;
+}

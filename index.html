@@ -12,6 +12,15 @@
   </head>
 
   <body cz-shortcut-listen="true">
+    <div id="fb-root"></div>
+    <script>(function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.10&appId=1467122163504771';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -30,8 +39,13 @@
             <li><a href="./remorques.html">Remorques</a></li>
             <li><a href="./familiaux.html">Cargos Familiaux</a></li>
             <li><a href="./services.html">Services</a></li>
+            <li><a href="./autres.html">Autres</a></li>
             <li><a href="./contact.html">Contact</a></li>
-            <li><a href="tel:+33630614594">+33 (0)6 30 61 45 94</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="tel:+33630614594">+33 (0)6 30 61 45 94</a>
+            </li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -73,16 +87,26 @@
           <img src="./pictures/christiania.jpg" alt="Cycloporteur famille Christiania">
         </div>
       </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <em>
+            Cycloporteur.com, une marque de STRUCTURES MOBILES ET COMPAGNIE S.A.S.
+          </em>
+        </div>
+      </div>
     </div>
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-    ga('create', 'UA-90284642-1', 'auto');
-    ga('send', 'pageview');
-    </script>
+    <div class="fb-like" data-href="https://www.facebook.com/cycloporteur/" data-layout="button_count" data-action="like" data-size="small"
+      data-show-faces="true" data-share="false">
+    </div>
   </body>
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-90284642-1', 'auto');
+  ga('send', 'pageview');
+  </script>
 </html>
